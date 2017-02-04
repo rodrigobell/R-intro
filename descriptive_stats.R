@@ -1,6 +1,6 @@
 setwd("/Users/rb-mac/Coding Projects/R_intro")
 
-prices <- read.csv("stock_data.csv")
+prices <- read.csv("stock_price.csv")
 
 prices
 head(prices)
@@ -32,5 +32,3 @@ cor(
 )
 
 summary(prices)
-
-
